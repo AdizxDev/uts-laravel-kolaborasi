@@ -29,12 +29,11 @@ Repository ini dibuat untuk memenuhi tugas UTS mata kuliah **Web Service** denga
 
 ## 🖼️ Tampilan Aplikasi
 
-> 📎 *Pastikan file berikut sudah kamu upload ke:*  
+> 📎 *File screenshot disimpan di:*  
 > `docs/screenshots/homee.png`  
 > `docs/screenshots/about.png`
 
 ### 🏠 Halaman Home
-
 <p align="center">
   <img src="docs/screenshots/homee.png" width="90%" alt="Tampilan Halaman Home" />
 </p>
@@ -42,9 +41,16 @@ Repository ini dibuat untuk memenuhi tugas UTS mata kuliah **Web Service** denga
 ---
 
 ### 👥 Halaman About
-
 <p align="center">
   <img src="docs/screenshots/about.png" width="90%" alt="Tampilan Halaman About" />
 </p>
 
 ---
+
+## 🔧 Cara Menjalankan Project
+
+```bash
+composer install
+cp .env.example .env
+php artisan key:generate
+php artisan serve
