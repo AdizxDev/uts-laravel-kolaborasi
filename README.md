@@ -27,7 +27,29 @@ Repository ini dibuat untuk memenuhi tugas UTS mata kuliah **Web Service** denga
 
 ---
 
-## 🔧 Cara Menjalankan
+## 🖼️ Tampilan Aplikasi
+
+> 📎 *Pastikan file berikut sudah kamu upload ke:*  
+> `docs/screenshots/homee.png`  
+> `docs/screenshots/about.png`
+
+### 🏠 Halaman Home
+
+<p align="center">
+  <img src="docs/screenshots/homee.png" width="90%" alt="Tampilan Halaman Home" />
+</p>
+
+---
+
+### 👥 Halaman About
+
+<p align="center">
+  <img src="docs/screenshots/about.png" width="90%" alt="Tampilan Halaman About" />
+</p>
+
+---
+
+## 🔧 Cara Menjalankan Project
 
 ```bash
 composer install
