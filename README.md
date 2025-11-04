@@ -48,11 +48,3 @@ Repository ini dibuat untuk memenuhi tugas UTS mata kuliah **Web Service** denga
 </p>
 
 ---
-
-## 🔧 Cara Menjalankan Project
-
-```bash
-composer install
-cp .env.example .env
-php artisan key:generate
-php artisan serve
