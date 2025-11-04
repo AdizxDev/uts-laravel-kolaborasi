@@ -11,13 +11,13 @@ class HomeController extends Controller
         $places = [
             ['img' => 'acropolis.jpg', 'name' => 'Acropolis, Yunani'],
             ['img' => 'shibuya.jpg', 'name' => 'Shibuya, Jepang'],
-            ['img' => 'cappadocia.webp', 'name' => 'Cappadocia, Turki'],
-            ['img' => 'giza.webp', 'name' => 'Giza, Mesir'],
+            ['img' => 'cappadocia.webp', 'name' => 'Cappadocia, mudi bale'],
+            ['img' => 'giza.webp', 'name' => 'Giza, Lotim'],
             ['img' => 'garuda.jpg', 'name' => 'Garuda Wisnu Kencana, Bali'],
             ['img' => 'huayana.jpg', 'name' => 'Huayana, Peru'],
             ['img' => 'jumeirah.jpg', 'name' => 'Jumeirah, Abu Dhabi'],
-            ['img' => 'newyork.jpg', 'name' => 'New York, Amerika'],
-            ['img' => 'niagara.jpg', 'name' => 'Niagara, Kanada'],
+            ['img' => 'newyork.jpg', 'name' => 'New York, US'],
+            ['img' => 'niagara.jpg', 'name' => 'Niagara, Kanada (karangan anak narmada'],
         ];
 
         return view('home', compact('nim', 'places'));
