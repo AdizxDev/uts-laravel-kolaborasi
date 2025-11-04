@@ -3,7 +3,7 @@
 @section('title','About')
 
 {{-- Judul besar di top layout --}}
-@section('headline','Halaman ini dibuat oleh: 301010021 - IMAM RISMAWAN')
+@section('headline','Halaman ini dibuat oleh: 301010021 - IMAM RISMAWANN')
 @section('subtitle','Profil Penulis Project Laravel')
 
 @section('content')
